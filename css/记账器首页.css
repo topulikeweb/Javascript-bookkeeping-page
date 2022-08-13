@@ -1,0 +1,166 @@
+* {
+    padding: 0px;
+    margin: 0px
+}
+
+.head {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 20px auto;
+    font-size: 40px;
+    text-align: center;
+    background-color: #f5f6f6;
+}
+
+.balance {
+    width: 50%;
+    height: 45px;
+    background-color: #f4f8f4;
+    font-size: 20px;
+    padding-left: 10px;
+    line-height: 45px;
+}
+
+.balance_money {
+    width: 50%;
+    height: 50px;
+    background-color: #f3f5f3;
+    font-size: 40px;
+    padding-left: 10px;
+    line-height: 60px;
+    font-weight: 600;
+}
+
+.center ul li .income {
+    float: left;
+    width: 40%;
+    height: 60px;
+    background-color: #d5d4d4;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 60px;
+    text-align: center;
+}
+
+.center ul li .expenditure {
+    float: left;
+    width: 40%;
+    height: 60px;
+    background-color: #d5d4d4;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 60px;
+    text-align: center;
+}
+
+.income {
+    color: #9f9fe1;
+}
+
+.expenditure {
+    border-left: lightgray 1px solid;
+    color: rgba(218, 111, 111, 0.56);
+}
+
+.center ul {
+    list-style: none;
+    position: relative;
+    left: 40px;
+}
+
+#expenditure {
+    width: 40%;
+    height: 30px;
+    background-color: #d5d4d4;
+    float: left;
+    font-size: 25px;
+    text-align: center;
+    line-height: 32px;
+}
+
+#income {
+    font-size: 25px;
+    text-align: center;
+    line-height: 32px;
+    width: 40%;
+    height: 30px;
+    background-color: #d5d4d4;
+    float: left;
+}
+
+section {
+    width: 100%;
+    background-color: #dce7ea;
+    position: relative;
+    top: 120px;
+}
+
+section h2 {
+    display: inline;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    left: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+section ul {
+    width: 100%;
+    overflow: hidden;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.del {
+    width: 5%;
+    height: 5%;
+    position: absolute;
+    right: 80px;
+}
+
+.show {
+    font-size: 18px;
+}
+
+footer {
+    width: 100%;
+    background-color: #f3faf3;
+    position: relative;
+    top: 120px;
+}
+
+#name {
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+#money {
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+footer h2{
+    position: relative;
+    left: 20px;
+    width: 100%;
+    height: 50px;
+    left: 20px;
+    border-bottom: 1px solid lightgray;
+}
+#add{
+    display: inline;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    left: 0px;
+    top: 250px;
+    border-bottom: 1px solid lightgray;
+    background-color: palevioletred;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+}
